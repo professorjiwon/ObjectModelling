@@ -1,4 +1,4 @@
-package ch02_OCP_enswer;
+package _02_OCP_enswer;
 
 public class Mp3 implements PlayInterface{
 

@@ -1,4 +1,4 @@
-package ch01_OCP_ex;
+package _01_OCP_ex;
 
 class SoundPlayer {
 	void play() {

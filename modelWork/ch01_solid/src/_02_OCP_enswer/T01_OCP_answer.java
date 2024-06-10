@@ -1,4 +1,4 @@
-package ch02_OCP_enswer;
+package _02_OCP_enswer;
 
 public class T01_OCP_answer {
 	public static void main(String[] args) {
