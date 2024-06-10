@@ -11,5 +11,9 @@ public class T01_OCP_answer {
 		sp.setPlayInter(new Mp3());
 		System.out.print("mp3파일 재생 : ");
 		sp.play();
+		
+		sp.setPlayInter(new Ogg());
+		System.out.print("ogg파일 재생 : ");
+		sp.play();
 	}
 }
