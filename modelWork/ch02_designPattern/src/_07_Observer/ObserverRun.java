@@ -11,7 +11,11 @@ public class ObserverRun {
 		// 구독자(감시자)를 등록
 		subject.registerObserver(oa);
 		subject.registerObserver(ob);
+		
+		subject.notifyObserver();
+		
+		subject.removeObserver(oa);
 
+		subject.notifyObserver();
 	}
-
 }
