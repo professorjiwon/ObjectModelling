@@ -12,11 +12,9 @@ public class SubwayRun {
 		menu1.setVagetable(true);
 		System.out.println(menu1);
 		
-		menu1 = new Subway();
-		menu1.setCheese("모짜렐라");
-		menu1.setSource("칠리");
-		menu1.setExtraTopping("아보카도");
-		menu1.setVagetable(false);
-		System.out.println(menu1);
+		Subway menu2 = new Subway();
+		menu2.setSource("칠리");
+		menu2.setExtraTopping("아보카도");
+		System.out.println(menu2);
 	}
 }
